@@ -38,6 +38,7 @@ function AppWithRedux() {
     const dispatch=useDispatch()
 
 
+
     function removeTask(id: string, todolistId: string) {
         //достанем нужный массив по todolistId:
         // let todolistTasks = tasks[todolistId];
